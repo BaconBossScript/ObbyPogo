@@ -544,7 +544,7 @@ local player = game.Players.LocalPlayer
 		Teleport(game:GetService("Workspace").Map.SavePoints["100"].Status.CFrame)
 		wait(1)
 		
-		elseif geetgenv().TPPlace == "Active Fast" then
+		elseif getgenv().TPPlace == "Active Fast" then
 		Teleport(game:GetService("Workspace").Map.SavePoints["1"].Status.CFrame)
 wait(1)
 
@@ -762,7 +762,7 @@ TabTwo:AddToggle({
             _G.autoLucky = Value
         while _G.autoLucky and wait() do
             game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.5.1"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("LuckyBlock"):WaitForChild("RE"):WaitForChild("OpenLuckyBlock"):FireServer()
-wait(1)
+wait(0)
 end
     end
 })

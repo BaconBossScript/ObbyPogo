@@ -762,7 +762,7 @@ TabTwo:AddToggle({
             _G.autoLucky = Value
         while _G.autoLucky and wait() do
             game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.5.1"):WaitForChild("knit"):WaitForChild("Services"):WaitForChild("LuckyBlock"):WaitForChild("RE"):WaitForChild("OpenLuckyBlock"):FireServer()
-wait(0)
+wait(1)
 end
     end
 })
